@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(205, 217, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#form-login{
+    margin: 15rem auto;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgb(7, 23, 41);
+    color: white;
+    text-align: center;
+    box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.75);
+
+    & h2{
+        color:aqua;
+    }
+
+    & input{
+        margin: .8rem 0;
+        padding: .9rem .5rem;
+        width: 17rem;
+        background-color: rgba(255, 255, 255, 0.089);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+
+    & #checkbox{
+        width: auto;
+        margin: 0 1rem;
+    }
+
+    & input:last-of-type{
+        margin-top: 2rem;
+        cursor: pointer;
+        color: aqua;
+        width: 10rem;
+    }
+}

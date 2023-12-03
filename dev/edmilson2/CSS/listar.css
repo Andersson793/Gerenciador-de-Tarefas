@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(31, 143, 132);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: white;
+}
+th{
+    color:white;
+    text-align: justify;
+}
+td{
+    color:white;
+}

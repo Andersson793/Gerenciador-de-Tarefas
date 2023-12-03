@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00AAFF; /* Adicionado uma cor de fundo azul */
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff; /* Alterado a cor do texto para branco */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #2980b9; /* Alterado a cor do fundo no hover para um tom mais escuro */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+nav a {
+    position: relative;
+    overflow: hidden;
+    color: white; /* Alterado a cor do texto para branco */
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff; /* Alterado a cor do efeito para branco */
+    z-index: -1;
+    transition: transform 0.3s ease;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+nav a:hover::before {
+    transform: scaleY(1);
+}
+.image-container {
+    position: relative;
+}
+
+figure {
+    margin: 0;
+    cursor: pointer;
+}
+
+figcaption {
+    display: none;
+    position: absolute;
+    top: 40%; /* Ajuste a porcentagem conforme necessário */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
